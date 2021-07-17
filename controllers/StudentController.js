@@ -3,7 +3,7 @@ var router = express.Router()
 var ObjectID = require('mongoose').Types.ObjectId
 const bcrypt=require('bcryptjs')
 
-var { StudentModel } = require('../models/studentModel')
+var { StudentModel } = require('../models/StudentModel')
 
 
 router.get('/', (req, res) => {
