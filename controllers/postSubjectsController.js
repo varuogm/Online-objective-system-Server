@@ -3,7 +3,8 @@ var router = express.Router()
 var ObjectID = require('mongoose').Types.ObjectId
 
 
-var { PostSubjects } = require('../models/postSubjects')
+var { PostSubjects } = require('../models/PostSubjects')
+
 
 //to get all objects
 router.get('/', (req, res) => {
