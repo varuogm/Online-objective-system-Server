@@ -1,8 +1,6 @@
 const mongoose=require('mongoose');
 require ("dotenv").config();
 var url = process.env.ATLAS;
-//var url="mongodb://localhost:27017/KAPS";
-
 
 mongoose.connect(url, {useNewUrlParser:true,useUnifiedTopology:true},
     err=>{
